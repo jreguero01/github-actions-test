@@ -6,11 +6,11 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-20.04
     steps:
-      - name: echo a string
+      - name: eccho a string
         run: echo "Hello World"
       - name: multiline script
         run: | 
           node -v
           npm -v
-            
+
 
